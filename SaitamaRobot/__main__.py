@@ -71,13 +71,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey hi {}, I'm {}!
+I'm Lelouch!
 I am an Anime themed group management bot.
-Built by weebs for weebs, I specialize in managing anime eccentric communities!
+Built by @xtheanonymous for weebs, I specialize in managing anime eccentric communities!
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is *Lelouch*.
 I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -228,7 +228,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🚑 Support",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/LELOUCHSUPPORT",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
